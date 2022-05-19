@@ -1,0 +1,30 @@
+67e4acd (HEAD -> main, origin/main, origin/HEAD) Merge pull request #9 from Liam-Lee-66/main
+d4d0a36 Added js animation
+8f24b33 Added js animation
+f2b5e07 Merge pull request #8 from Liam-Lee-66/main
+5179671 Footer fix & Color fix
+3100048 Changed colour of footer
+58aab18 Merge pull request #7 from Liam-Lee-66/main
+3d0a6e7 update
+620d491 Final fix/edit upload
+a261bda Final fix/edit upload
+8d1bb8e Added changes to styling and tex, cookies fixed
+936c604 no cookies found
+0e25088 Merge pull request #5 from Liam-Lee-66/main
+a35d99f a
+67ea6d2 a
+8d76556 index update upload
+e6b6b72 Merge pull request #4 from Liam-Lee-66/main
+828d42f Merge remote-tracking branch 'upstream/main' into main
+aa1d034 Contact us update upload
+47f755a Imported to index.html
+c5f32f5 Added cookie.js
+71ccf20 Merge pull request #3 from Liam-Lee-66/main
+7f62c82 AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+d3847b4 Added more text in js for change
+f0fb00d Merge pull request #2 from Liam-Lee-66/main
+fe25dbc Testing
+dcfda7c Merge pull request #1 from Liam-Lee-66/main
+f563f73 helpme2
+393ab36 helme
+2413ea8 No commits
