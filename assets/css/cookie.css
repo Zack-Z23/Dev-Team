@@ -1,0 +1,165 @@
+@import url('base.css');
+#cookies1 {
+    position: fixed;
+    width: 350px;
+    /* height: 3   00px; */
+    background-color: #fff;
+    border-radius: 4px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    padding: 30px;
+    display: none;
+    z-index: 9999;
+}
+
+#cookies1 p {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#cookies1 #but1 {
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 4px;
+    background-color: #203E5F;
+    color: #fff;
+    margin-top: 15px;
+    transition: all .25s ease-in-out;
+}
+
+#cookies1 #but2 {
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 4px;
+    background-color: #fff;
+    border: #203E5F solid 1.5px;
+    color: #203E5F;
+    margin-top: 15px;
+    transition: all .25s ease-in-out;
+}
+
+#cookies1 #but2:hover {
+    background-color: #adadad;
+    color: #fff;
+    cursor: pointer;
+}
+
+#cookies1 #but1:hover, #cookies2 #but3:hover {
+    background-color: #041324;
+    cursor: pointer;
+}
+
+#cookies2 {
+    position: fixed;
+    width: 350px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 4px;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    padding: 30px;
+    display: none;
+    z-index: 9999;
+}
+
+#cookies2 #flex #inerbox + #inerbox {
+    margin-top: 5px;
+}
+
+#cookies2 #but3 {
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 4px;
+    background-color: #203E5F;
+    color: #fff;
+    transition: all .25s ease-in-out;
+}
+#cookies2 h2 {
+    margin-bottom: 10px;
+}
+
+#cookies2 h3 {
+    font-size: 18px;
+}
+
+#flex {
+    width: 100%;
+    height: 70%;
+    display: flex;
+    flex-direction: column;
+}
+
+#inerbox {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#backgroundOP {
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100vw;
+    height: 100vh;
+}
+
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 30px;
+}
+
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 22px;
+    width: 22px;
+    left: 4px;
+    bottom: 4px;
+    background-color: #fff;
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: #203E5F;
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px #203E5F;
+}
+
+input:checked+.slider:before {
+    transform: translateX(30px);
+}
+
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}

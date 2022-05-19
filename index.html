@@ -6,13 +6,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/imgs/car-2-48.png">
     <title>Welcome</title>
-
+    <link rel="stylesheet" href="assets/css/cookie.css">
     <link rel="stylesheet" href="assets/css/index.css">
-    <script src="" defer></script>
+    <script src="assets/js/cookie.js" defer></script>
     <script src="https://kit.fontawesome.com/6feb265988.js" crossorigin="anonymous"></script>
 </head>
 
 <body id="body">
+    <div id="cookies2">
+        <h2>Manage Cookies</h2>
+        <div id="flex">
+            <div id="inerbox">
+                <h3>Browser</h3>
+                <label class="switch">
+                    <input id="browser" type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
+            <div id="inerbox">
+                <h3>Operating system</h3>
+                <label class="switch">
+                    <input id="operating" type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
+            <div id="inerbox">
+                <h3>Screen width</h3>
+                <label class="switch">
+                    <input id="screenWidth" type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
+            <div id="inerbox">
+                <h3>Screen height</h3>
+                <label class="switch">
+                    <input id="screenHeigth" type="checkbox" checked>
+                    <span class="slider round"></span>
+                </label>
+            </div>
+        </div>
+        <input id="but3" type="button" value="Save Preferences">
+    </div>
+    <div id="cookies1">
+        <h2>Cookies</h2>
+        <p>We use cookies to improve your experience on our website. By clicking accept all you agree to the use of cookies for marketing and analytics </p>
+        <input id="but1" type="button" value="Accept All">
+        <input id="but2" type="button" value="Manage">
+    </div>
     <main>
         <nav>
             <h2>Welcome</h2>
@@ -33,7 +76,7 @@
         <div class="landing" id="landing">
             <div class="shaded">
                 <div class="header" id="header">
-                    <h1>Zach's Car Blog</h1>
+                    <h1>Bottom Gear Car Blog</h1>
                     <hr>
                     <h3>Cars and Motorsport blog</h3>
                 </div>
@@ -45,14 +88,14 @@
                 <div class="text">
                     <h1>About Us</h1>
                     <p>
-                        Me and my friends love cars and motorsports and thought we would make a blog that shared our
+                        We love cars and motorsports and thought we would make a blog that shared our
                         passion
-                        with others. We love cars and their mechanics, formula 1,
-                        stock car racing, and many other things to do with cars. Please enjoy our blog and website, send
+                        with others. The motorsports we are into are: Formula 1,
+                        NASCAR and many other things to do with cars. Please enjoy our blog and website, send
                         us
                         any
                         questions on the contact us page, or feel free
-                        to donate (although it is not necessary). You can also send us suggestions and ideas on the
+                        to donate. You can also send us suggestions and ideas on the
                         contact
                         us
                         page. Thanks for all of the support, we appreciate
@@ -65,26 +108,33 @@
 
     <footer>
         <div class="footerDevInfo">
-            <h2>Developers</h2>
+            <h2>Devs</h2>
             <ul>
-                <li>Jacob Block</li>
-                <ul class="icons">
-                    <li><a href="https://github.com/JacobBlock123"><i class="fa-brands fa-github icons"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/jacob-block-b7983b236/"><i
-                                class="fa-brands fa-linkedin icons"></i></a></li>
-                </ul>
-                <li>Liam Lee</li>
-                <ul class="icons">
-                    <li><a href="https://github.com/Liam-Lee-66"><i class="fa-brands fa-github icons"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/liam-lee-1a67b9236/"><i
-                                class="fa-brands fa-linkedin icons"></i></a></li>
-                </ul>
-                <li>Zacharias Zachariadis</li>
-                <ul class="icons">
-                    <li><a href="https://github.com/Zack-Z23"><i class="fa-brands fa-github icons"></i></a></li>
-                    <li><a href="https://www.linkedin.com/in/zacharias-zachariadis-26a1a7238/"><i
-                                class="fa-brands fa-linkedin icons"></i></a></li>
-                </ul>
+                <div class="footerPfl">
+                    <li>Jacob Block</li>
+                    <ul class="icons">
+                        <li><a href="https://github.com/JacobBlock123"><i class="fa-brands fa-github icons"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/jacob-block-b7983b236/"><i
+                                    class="fa-brands fa-linkedin icons"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footerPfl">
+                    <li>Liam Lee</li>
+                    <ul class="icons">
+                        <li><a href="https://github.com/Liam-Lee-66"><i class="fa-brands fa-github icons"></i></a>
+                        </li>
+                        <li><a href="https://www.linkedin.com/in/liam-lee-1a67b9236/"><i
+                                    class="fa-brands fa-linkedin icons"></i></a></li>
+                    </ul>
+                </div>
+                <div class="footerPfl">
+                    <li>Zacharias Zachariadis</li>
+                    <ul class="icons">
+                        <li><a href="https://github.com/Zack-Z23"><i class="fa-brands fa-github icons"></i></a></li>
+                        <li><a href="https://www.linkedin.com/in/zacharias-zachariadis-26a1a7238/"><i
+                                    class="fa-brands fa-linkedin icons"></i></a></li>
+                    </ul>
+                </div>
             </ul>
         </div>
         <div class="footerNav">
