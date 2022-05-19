@@ -144,6 +144,6 @@ dialog {
     position: absolute;
     margin: 0 auto;
     padding: 25px;
-    border-radius: 4px;
+    border-radius: 14px;
     top: 100vh;
 }

@@ -8,6 +8,7 @@ const checkbox3 = document.getElementById('screenHeigth');
 const savePre = document.getElementById('but3');
 const Manage = document.getElementById('but2');
 
+
 document.cookie ? document.getElementById('cookies1').style.display = 'none' : document.getElementById('cookies1').style.display = 'block'
 Manage.addEventListener('click', function() {
     document.getElementById('cookies1').style.display = 'none'
