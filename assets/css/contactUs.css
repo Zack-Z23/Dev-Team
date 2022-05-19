@@ -69,6 +69,10 @@ main .container div + div {
     margin-left: 5%;
 }
 
+hr {
+    border-top: solid 5px #c9c9c9;
+}
+
 .formSide {
     width: 500px;
 }

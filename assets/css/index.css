@@ -167,3 +167,10 @@ nav .links a i {
         bottom: 0px;
     }
 }
+
+
+
+.revealUp {
+    opacity: 0;
+    visibility: hidden;
+}
