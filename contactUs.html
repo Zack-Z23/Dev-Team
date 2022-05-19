@@ -5,17 +5,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="assets/imgs/car-2-48.png">
-    <title>Welcome</title>
+    <title>Contact us</title>
 
-    <link rel="stylesheet" href="assets/css/index.css">
-    <script src="" defer></script>
+    <script defer src="assets/js/contactUs.js"></script>
+    <link rel="stylesheet" href="assets/css/contactUs.css">
+
     <script src="https://kit.fontawesome.com/6feb265988.js" crossorigin="anonymous"></script>
+
+    <meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no">
+    <link href="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.css" rel="stylesheet">
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.8.2/mapbox-gl.js"></script>
 </head>
 
-<body id="body">
+<body>
     <main>
         <nav>
-            <h2>Welcome</h2>
+            <h2>Contact us</h2>
             <div class="links">
                 <a href="index.html">
                     <p>Home</p>
@@ -33,34 +38,42 @@
         <div class="landing" id="landing">
             <div class="shaded">
                 <div class="header" id="header">
-                    <h1>Zach's Car Blog</h1>
+                    <h1>Contact us</h1>
                     <hr>
-                    <h3>Cars and Motorsport blog</h3>
+                    <h3>Leave us a message!</h3>
                 </div>
             </div>
         </div>
 
-        <div class="about" id="about">
-            <div class="shaded">
-                <div class="text">
-                    <h1>About Us</h1>
-                    <p>
-                        Me and my friends love cars and motorsports and thought we would make a blog that shared our
-                        passion
-                        with others. We love cars and their mechanics, formula 1,
-                        stock car racing, and many other things to do with cars. Please enjoy our blog and website, send
-                        us
-                        any
-                        questions on the contact us page, or feel free
-                        to donate (although it is not necessary). You can also send us suggestions and ideas on the
-                        contact
-                        us
-                        page. Thanks for all of the support, we appreciate
-                        any and all donations.
-                    </p>
+        <div class="container">
+            <div class="formSide">
+                <h2>Write us a message!</h2>
+                <div class="form">
+                    <div>
+                        <input id="fName" type="text" placeholder="First name">
+                        <input id="lName" type="text" placeholder="Last name">
+                    </div>
+                    <input id="email" type="email" placeholder="example@email.com">
+                    <textarea placeholder="Write your message here..."></textarea>
+                    <button id="sendBtn">Send</button>
                 </div>
             </div>
+
+            <div>
+                <h2>Visit us in-person!</h2>
+                <div id="map"></div>
+            </div>
         </div>
+
+        <dialog id="success">
+            <h3>Message sent!</h3>
+            <p>Thank you for your opinion!</p>
+        </dialog>
+
+        <dialog id="failure">
+            <h3>Message not sent.</h3>
+            <p>Some or one of the input is incorrect. Please try again.</p>
+        </dialog>
     </main>
 
     <footer>
