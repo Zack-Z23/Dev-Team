@@ -34,6 +34,7 @@ p, a, li, label, input, textarea, div, span {
 
 input {
     margin: 0;
+<<<<<<< HEAD
 }
 
 a {
@@ -194,4 +195,6 @@ footer ul {
 
 .icons:hover {
     color: #FFCC00;
+=======
+>>>>>>> e6b6b72a1f47821d9c1206a848c95ecdbe10cd32
 }
