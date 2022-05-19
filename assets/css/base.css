@@ -93,6 +93,13 @@ a:visited {
     font-size: 25px;
 }
 
+hr {
+    border-top: solid 5px #FFCC00;
+    width: 75%;
+    opacity: 0.5;
+    margin: 20px;
+}
+
 nav {
     color: #efefef;
     position: absolute;
@@ -138,13 +145,6 @@ nav .links a i {
     font-size: 30px;
 }
 
-hr {
-    border-top: solid 5px #efefef;
-    width: 75%;
-    opacity: 0.5;
-    margin: 20px;
-}
-
 /*********************/
 /* FOOTER            */
 /*********************/
@@ -159,6 +159,7 @@ footer {
     flex-direction: row;
     justify-content: space-evenly;
     align-items: baseline;
+    border-top: 5px solid #203E5F;
 }
 footer h2 {
     margin-bottom: 12px;
@@ -203,6 +204,6 @@ footer ul {
 .footerPfl {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: baseline;
     justify-content: left;
 }
