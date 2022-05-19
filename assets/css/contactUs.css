@@ -143,7 +143,15 @@ button:hover {
 dialog {
     position: absolute;
     margin: 0 auto;
-    padding: 25px;
-    border-radius: 14px;
-    top: 100vh;
+    width: 350px;
+    padding: 30px;
+    border-radius: 8px;
+    /* transform: translate(-50%, 0%); */
+    top: 105%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+dialog h3 {
+    margin-bottom: 10px;
 }

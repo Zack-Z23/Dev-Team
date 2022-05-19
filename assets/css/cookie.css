@@ -1,14 +1,14 @@
 @import url('base.css');
 #cookies1 {
     position: fixed;
-    width: 300px;
-    height: 250px;
-    background-color: white;
-    border-radius: 8px;
+    width: 350px;
+    /* height: 3   00px; */
+    background-color: #fff;
+    border-radius: 4px;
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
-    padding: 15px;
+    padding: 30px;
     display: none;
     z-index: 9999;
 }
@@ -22,59 +22,68 @@
 #cookies1 #but1 {
     padding: 15px;
     font-size: 18px;
-    border-radius: 8px;
+    border-radius: 7px;
     background-color: #203E5F;
-    color: white;
+    color: #fff;
     margin-top: 15px;
+    transition: all .25s ease-in-out;
 }
 
 #cookies1 #but2 {
     padding: 15px;
     font-size: 18px;
-    border-radius: 8px;
-    background-color: white;
+    border-radius: 7px;
+    background-color: #fff;
     border: #203E5F solid 1.5px;
     color: #203E5F;
     margin-top: 15px;
+    transition: all .25s ease-in-out;
 }
 
 #cookies1 #but2:hover {
-    color: #1A2634;
-    transition-duration: 0.5s;
+    background-color: #adadad;
+    color: #fff;
+    cursor: pointer;
 }
 
-#cookies1 #but1:hover {
-    background-color: #1A2634;
+#cookies1 #but1:hover, #cookies2 #but3:hover {
+    background-color: #041324;
+    cursor: pointer;
 }
 
 #cookies2 {
     position: fixed;
-    width: 300px;
-    height: 300px;
-    background-color: white;
-    border-radius: 8px;
+    width: 350px;
+    height: auto;
+    background-color: #fff;
+    border-radius: 4px;
     transform: translate(-50%, -50%);
     left: 50%;
     top: 50%;
-    padding: 15px;
+    padding: 30px;
     display: none;
     z-index: 9999;
 }
 
-#cookies2 #but3 {
-    padding: 15px;
-    font-size: 18px;
-    border-radius: 8px;
-    background-color: #203E5F;
-    color: white;
+#cookies2 #flex #inerbox + #inerbox {
+    margin-top: 5px;
 }
 
-#cookies2 #but3:hover {
-    background-color: #1A2634;
+#cookies2 #but3 {
+    margin-top: 10px;
+    padding: 15px;
+    font-size: 18px;
+    border-radius: 4px;
+    background-color: #203E5F;
+    color: #fff;
+    transition: all .25s ease-in-out;
+}
+#cookies2 h2 {
+    margin-bottom: 10px;
 }
 
 #cookies2 h3 {
-    font-size: 15px;
+    font-size: 18px;
 }
 
 #flex {
@@ -130,7 +139,7 @@
     width: 22px;
     left: 4px;
     bottom: 4px;
-    background-color: white;
+    background-color: #fff;
     -webkit-transition: .4s;
     transition: .4s;
 }
