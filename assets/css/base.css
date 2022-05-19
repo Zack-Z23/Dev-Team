@@ -35,3 +35,163 @@ p, a, li, label, input, textarea, div, span {
 input {
     margin: 0;
 }
+
+a {
+    color: #efefef;
+    text-decoration: none;
+}
+a:visited {
+    color: #efefef;
+}
+
+/*  
+    HEADER
+*/
+
+.landing {
+    position: relative;
+    top: 0;
+    height: 80vh;
+    width: 100%;
+    background-image: url(../imgs/media-studio-hong-kong-KPhDvQ4C3ig-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.shaded {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.header {
+    color: #efefef;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    justify-content: center;
+    height: 40%;
+    /* animation-name: fadein2;
+    animation-duration: 1.5s;
+    animation-delay: 1s;
+    animation-timing-function: ease; */
+    position: relative;
+}
+
+.header h1 {
+    font-size: 50px;
+}
+
+.header h3 {
+    font-size: 25px;
+}
+
+nav {
+    color: #efefef;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 80px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* animation-name: fadein;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out; */
+    z-index: 1111;
+}
+
+nav h2 {
+    font-size: 30px;
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+    height: auto;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.links p {
+    font-size: 20px;
+}
+.links a {
+    transition: all .25s ease-in-out;
+}
+.links a:hover {
+    text-decoration: underline;
+    color: #FFCC00;
+}
+
+nav .links a i {
+    font-size: 30px;
+}
+
+hr {
+    border-top: solid 5px #efefef;
+    width: 75%;
+    opacity: 0.5;
+    margin: 20px;
+}
+
+/*********************/
+/* FOOTER            */
+/*********************/
+footer {
+    position: relative;
+    width: 100%;
+    background-color: #1A2634;
+    color: #eee;
+    padding: 25px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
+}
+footer h2 {
+    margin-bottom: 12px;
+}
+footer ul {
+    list-style-type: none;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 5px;
+    margin-left: 2px;
+}
+.icons li + li {
+    margin-left: 13px;
+}
+.footerNavLink a{
+    transition: all .25s ease-in-out;
+}
+.footerNavLink a:hover{
+    text-decoration: underline;
+    color: #FFCC00;
+}
+.footerNavLink li + li{
+    margin-top: 10px;
+}
+
+.icons {
+    font-size: 25px;
+    color: #efefef;
+    transition: all .25s ease-in-out;
+}
+
+.icons:hover {
+    color: #FFCC00;
+}

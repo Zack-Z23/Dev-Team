@@ -49,11 +49,11 @@ mapboxgl.accessToken = 'pk.eyJ1IjoienphY2hhcmlhZCIsImEiOiJjbDF3Z205bnYwZ210M2VxY
 const map = new mapboxgl.Map({
     container: 'map',
     style: 'mapbox://styles/zzachariad/cl1wgobuh001v14p73j3ful19',
-    center: [-97.19248550421106,49.81478512622047],
+    center: [-97.1927113515565,49.814843545744594],
     zoom: 14
 });
 
 // Create a default Marker and add it to the map.
 const marker1 = new mapboxgl.Marker()
-    .setLngLat([-97.19248550421106,49.81478512622047])
+    .setLngLat([-97.1927113515565,49.814843545744594])
     .addTo(map);
