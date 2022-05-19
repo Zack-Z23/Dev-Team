@@ -19,6 +19,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    border-bottom: 2px solid #203E5F;
 }
 
 .shaded {
@@ -98,13 +99,6 @@ nav .links a i {
     font-size: 30px;
 }
 
-hr {
-    border-top: solid 5px #efefef;
-    width: 75%;
-    opacity: 0.5;
-    margin: 20px;
-}
-
 .button-container {
     position: absolute;
     bottom: 0;
@@ -113,6 +107,14 @@ hr {
     justify-content: center;
     align-items: center;
     height: 200px;
+}
+
+.fa-chevron-down {
+    position: absolute;
+    font-size: 25px;
+    bottom: 0;
+    animation: upAndDown 3s infinite ease;
+    color: #efefef;
 }
 
 /*********************/
@@ -152,4 +154,16 @@ hr {
     width: 75%;
     line-height: 1.6;
     font-size: 20px;
+}
+
+@keyframes upAndDown {
+    0% {
+        bottom: 0px;
+    } 
+    49.5% {
+        bottom: 15px;
+    }
+    100% {
+        bottom: 0px;
+    }
 }
